@@ -1,0 +1,19 @@
+
+    =========================================================================
+    DOWNLOAD INSTRUCTIONS FOR LOCAL USE:
+    =========================================================================
+
+    1. Download the complete model folder:
+       !zip -r exp_20251229_130955.zip /content/drive/MyDrive/digital-metabolism-twin/models/exp_20251229_130955
+
+    2. Or download individual files:
+       • Models: /content/drive/MyDrive/digital-metabolism-twin/models/exp_20251229_130955/*.joblib
+       • VAE: /content/drive/MyDrive/digital-metabolism-twin/models/exp_20251229_130955/vae_model.pt
+       • Metrics: /content/drive/MyDrive/digital-metabolism-twin/models/exp_20251229_130955/model_metrics.csv
+       • Summary: /content/drive/MyDrive/digital-metabolism-twin/models/exp_20251229_130955/training_summary.json
+
+    3. For local setup, copy to:
+       local_project/models/exp_20251229_130955/
+
+    =========================================================================
+    

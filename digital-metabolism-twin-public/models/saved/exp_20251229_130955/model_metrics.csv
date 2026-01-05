@@ -1,0 +1,6 @@
+model,auc,average_precision
+xgb,1.0,1.0
+lgb,1.0,1.0
+cb,1.0,1.0
+rf,1.0,1.0
+ensemble,,

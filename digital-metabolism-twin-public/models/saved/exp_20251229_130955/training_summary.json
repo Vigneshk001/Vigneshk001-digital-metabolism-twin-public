@@ -1,0 +1,65 @@
+{
+  "experiment_id": "exp_20251229_130955",
+  "timestamp": "2025-12-29T13:13:57.906759",
+  "data_shape": [
+    10178,
+    27
+  ],
+  "processed_shape": [
+    10178,
+    24
+  ],
+  "positive_class_ratio": 0.13990960896050306,
+  "model_performance": {
+    "xgb": {
+      "auc": 1.0,
+      "average_precision": 1.0
+    },
+    "lgb": {
+      "auc": 1.0,
+      "average_precision": 1.0
+    },
+    "cb": {
+      "auc": 1.0,
+      "average_precision": 1.0
+    },
+    "rf": {
+      "auc": 1.0,
+      "average_precision": 1.0
+    }
+  },
+  "vae_training_loss": 13.70215591788292,
+  "feature_count": 24,
+  "merge_statistics": {
+    "DIQ": {
+      "rows_added": 0,
+      "memory_increase_mb": 0.11871337890625,
+      "columns_added": 2
+    },
+    "BPQ": {
+      "rows_added": 0,
+      "memory_increase_mb": 0.11871337890625,
+      "columns_added": 2
+    },
+    "BMX": {
+      "rows_added": 0,
+      "memory_increase_mb": 0.2374267578125,
+      "columns_added": 4
+    },
+    "DR1TOT": {
+      "rows_added": 0,
+      "memory_increase_mb": 0.35614013671875,
+      "columns_added": 6
+    },
+    "SLQ": {
+      "rows_added": 0,
+      "memory_increase_mb": 0.11871337890625,
+      "columns_added": 2
+    },
+    "PAQ": {
+      "rows_added": 0,
+      "memory_increase_mb": 0.2374267578125,
+      "columns_added": 4
+    }
+  }
+}

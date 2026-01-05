@@ -1,0 +1,30 @@
+project_name: digital-metabolism-twin
+random_seed: 42
+
+paths:
+  data_dir: data
+  raw_dir: data/raw
+  processed_dir: data/processed
+  cache_dir: data/processed/cache
+  results_dir: results
+  models_dir: models/saved
+
+inference:
+  batch_size: 2048
+  probability_threshold: 0.5
+
+models:
+  experiment: exp_YYYYMMDD_HHMMSS
+  xgb_model: xgb_model.joblib
+  lgb_model: lgb_model.txt
+  rf_model: rf_model.joblib
+  cb_model: cb_model.cbm
+  vae_model: vae_model.pt
+
+explainability:
+  shap_top_k: 10
+  shap_max_local: 50
+
+logging:
+  level: INFO
+  format: "%(asctime)s | %(levelname)s | %(name)s | %(message)s"
